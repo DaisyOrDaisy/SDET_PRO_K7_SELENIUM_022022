@@ -15,8 +15,8 @@ public class SimpleMenu {
                     System.out.println(arr);
                     break;
                 case 2:
-                    if(arr.isEmpty()||arr==null)
-                        System.out.println("Your arraylist is empty or null!\n");
+                    if(arr.isEmpty())
+                        System.out.println("Your arraylist is empty!\n");
                     else{
                         System.out.println("3. Get maximum number \n4. Get minimum number\n");
                         int choice2=scanner.nextInt();
